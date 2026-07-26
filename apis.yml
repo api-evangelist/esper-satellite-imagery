@@ -1,8 +1,18 @@
 aid: esper-satellite-imagery
 name: Esper Satellite Imagery
-description: Esper Satellite Imagery is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Esper Satellite Imagery is an Australian space-technology company building an
+  18-satellite hyperspectral Earth-observation constellation (the Over The
+  Rainbow / OTR program) to deliver global chemical-composition data of the
+  planet's surface from orbit. Its Esperesso hyperspectral imagers capture more
+  than 100 contiguous spectral bands spanning roughly 400 to 1000 nm, which
+  Esper turns into mineralisation maps that identify lithium, rare earths, gold,
+  nickel, cobalt and alteration zones for critical-mineral exploration — faster,
+  cheaper and greener than traditional ground surveys. Founded in 2021 in
+  Melbourne, Victoria by Iqbal and Joey Lorenczak, Esper sells custom
+  area-of-interest mineral maps and a pre-built Northern Territory mineral map.
+  It does not currently publish a public developer API; this profile captures
+  the company's public web, security and code-repository surface.
 url: https://raw.githubusercontent.com/api-evangelist/esper-satellite-imagery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +20,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://framerusercontent.com/images/j23zx0tyZLLGZPZGskj6HprfQA.jpg
 tags:
 - Company
+- Satellite Imagery
+- Hyperspectral
+- Earth Observation
+- Remote Sensing
+- Mineral Exploration
+- Geospatial
+- Space
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/esper-satellite-imagery-domain-security.yml
 - type: Website
-  url: https://espersatellites.co/
+  url: https://www.espersatellites.co/
+- type: PrivacyPolicy
+  url: https://www.espersatellites.co/privacy-policy
+- type: Support
+  url: https://www.espersatellites.co/contact
+- type: Blog
+  url: https://medium.com/esper-satellite-imagery
+- type: GitHubOrganization
+  url: https://github.com/Esper-Satellite-Imagery
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
